@@ -1,0 +1,112 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "http://example.com/example.json",
+  "properties": {
+    "episodeGuideTab": {
+      "id": "/properties/episodeGuideTab",
+      "properties": {
+        "season": {
+          "id": "/properties/episodeGuideTab/properties/season",
+          "properties": {
+            "episodes": {
+              "id": "/properties/episodeGuideTab/properties/season/properties/episodes",
+              "items": {
+                "id": "/properties/episodeGuideTab/properties/season/properties/episodes/items",
+                "properties": {
+                  "displayRating": {
+                    "id": "/properties/episodeGuideTab/properties/season/properties/episodes/items/properties/displayRating",
+                    "type": "string"
+                  },
+                  "episodeNumber": {
+                    "id": "/properties/episodeGuideTab/properties/season/properties/episodes/items/properties/episodeNumber",
+                    "type": "string"
+                  },
+                  "episodeTitle": {
+                    "id": "/properties/episodeGuideTab/properties/season/properties/episodes/items/properties/episodeTitle",
+                    "type": "string"
+                  },
+                  "isFinale": {
+                    "id": "/properties/episodeGuideTab/properties/season/properties/episodes/items/properties/isFinale",
+                    "type": "boolean"
+                  },
+                  "isLive": {
+                    "id": "/properties/episodeGuideTab/properties/season/properties/episodes/items/properties/isLive",
+                    "type": "boolean"
+                  },
+                  "isNew": {
+                    "id": "/properties/episodeGuideTab/properties/season/properties/episodes/items/properties/isNew",
+                    "type": "boolean"
+                  },
+                  "isPremier": {
+                    "id": "/properties/episodeGuideTab/properties/season/properties/episodes/items/properties/isPremier",
+                    "type": "boolean"
+                  },
+                  "originalAirDate": {
+                    "id": "/properties/episodeGuideTab/properties/season/properties/episodes/items/properties/originalAirDate",
+                    "type": "string"
+                  },
+                  "ovdDetails": {
+                    "id": "/properties/episodeGuideTab/properties/season/properties/episodes/items/properties/ovdDetails",
+                    "items": {},
+                    "type": "array"
+                  },
+                  "programGenres": {
+                    "id": "/properties/episodeGuideTab/properties/season/properties/episodes/items/properties/programGenres",
+                    "type": "string"
+                  },
+                  "releaseYear": {
+                    "id": "/properties/episodeGuideTab/properties/season/properties/episodes/items/properties/releaseYear",
+                    "type": "string"
+                  },
+                  "seasonNumber": {
+                    "id": "/properties/episodeGuideTab/properties/season/properties/episodes/items/properties/seasonNumber",
+                    "type": "string"
+                  },
+                  "synopsis": {
+                    "id": "/properties/episodeGuideTab/properties/season/properties/episodes/items/properties/synopsis",
+                    "type": "string"
+                  },
+                  "tags": {
+                    "id": "/properties/episodeGuideTab/properties/season/properties/episodes/items/properties/tags",
+                    "type": "string"
+                  },
+                  "timings": {
+                    "id": "/properties/episodeGuideTab/properties/season/properties/episodes/items/properties/timings",
+                    "items": {},
+                    "type": "array"
+                  },
+                  "tmsID": {
+                    "id": "/properties/episodeGuideTab/properties/season/properties/episodes/items/properties/tmsID",
+                    "type": "string"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "number": {
+              "id": "/properties/episodeGuideTab/properties/season/properties/number",
+              "type": "string"
+            },
+            "totalepisodecount": {
+              "id": "/properties/episodeGuideTab/properties/season/properties/totalepisodecount",
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        "seasons": {
+          "id": "/properties/episodeGuideTab/properties/seasons",
+          "items": {
+            "id": "/properties/episodeGuideTab/properties/seasons/items",
+            "type": "string"
+          },
+          "type": "array"
+        }
+      },
+      "type": "object"
+    }
+  },
+  "type": "object"
+}

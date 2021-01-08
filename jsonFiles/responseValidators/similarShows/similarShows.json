@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "recommendations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tmsId": {
+            "type": "string"
+          },
+          "assetId": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "tmsId",
+          "assetId",
+          "title"
+        ]
+      }
+    }
+  },
+  "required": [
+    "recommendations"
+  ]
+}

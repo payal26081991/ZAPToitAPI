@@ -1,0 +1,406 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "http://example.com/example.json",
+  "properties": {
+    "backgroundImage": {
+      "id": "/properties/backgroundImage",
+      "type": "string"
+    },
+    "overviewTab": {
+      "id": "/properties/overviewTab",
+      "properties": {
+        "cast": {
+          "id": "/properties/overviewTab/properties/cast",
+          "items": {
+            "id": "/properties/overviewTab/properties/cast/items",
+            "properties": {
+              "assetId": {
+                "id": "/properties/overviewTab/properties/cast/items/properties/assetId",
+                "type": "string"
+              },
+              "characterName": {
+                "id": "/properties/overviewTab/properties/cast/items/properties/characterName",
+                "type": "string"
+              },
+              "name": {
+                "id": "/properties/overviewTab/properties/cast/items/properties/name",
+                "type": "string"
+              },
+              "priority": {
+                "id": "/properties/overviewTab/properties/cast/items/properties/priority",
+                "type": "string"
+              },
+              "role": {
+                "id": "/properties/overviewTab/properties/cast/items/properties/role",
+                "type": "string"
+              },
+              "type": {
+                "id": "/properties/overviewTab/properties/cast/items/properties/type",
+                "type": "string"
+              }
+            },
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "crew": {
+          "id": "/properties/overviewTab/properties/crew",
+          "items": {
+            "id": "/properties/overviewTab/properties/crew/items",
+            "properties": {
+              "assetId": {
+                "id": "/properties/overviewTab/properties/crew/items/properties/assetId",
+                "type": "string"
+              },
+              "characterName": {
+                "id": "/properties/overviewTab/properties/crew/items/properties/characterName",
+                "type": "string"
+              },
+              "name": {
+                "id": "/properties/overviewTab/properties/crew/items/properties/name",
+                "type": "string"
+              },
+              "priority": {
+                "id": "/properties/overviewTab/properties/crew/items/properties/priority",
+                "type": "string"
+              },
+              "role": {
+                "id": "/properties/overviewTab/properties/crew/items/properties/role",
+                "type": "string"
+              },
+              "type": {
+                "id": "/properties/overviewTab/properties/crew/items/properties/type",
+                "type": "string"
+              }
+            },
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "upcomingEpisode": {
+          "id": "/properties/overviewTab/properties/upcomingEpisode",
+          "properties": {
+            "displayRating": {
+              "id": "/properties/overviewTab/properties/upcomingEpisode/properties/displayRating",
+              "type": "string"
+            },
+            "episodeNumber": {
+              "id": "/properties/overviewTab/properties/upcomingEpisode/properties/episodeNumber",
+              "type": "string"
+            },
+            "episodeTitle": {
+              "id": "/properties/overviewTab/properties/upcomingEpisode/properties/episodeTitle",
+              "type": "string"
+            },
+            "isFinale": {
+              "id": "/properties/overviewTab/properties/upcomingEpisode/properties/isFinale",
+              "type": "boolean"
+            },
+            "isLive": {
+              "id": "/properties/overviewTab/properties/upcomingEpisode/properties/isLive",
+              "type": "boolean"
+            },
+            "isNew": {
+              "id": "/properties/overviewTab/properties/upcomingEpisode/properties/isNew",
+              "type": "boolean"
+            },
+            "isPremier": {
+              "id": "/properties/overviewTab/properties/upcomingEpisode/properties/isPremier",
+              "type": "boolean"
+            },
+            "originalAirDate": {
+              "id": "/properties/overviewTab/properties/upcomingEpisode/properties/originalAirDate",
+              "type": "string"
+            },
+            "ovdDetails": {
+              "id": "/properties/overviewTab/properties/upcomingEpisode/properties/ovdDetails",
+              "items": {
+                "id": "/properties/overviewTab/properties/upcomingEpisode/properties/ovdDetails/items",
+                "properties": {
+                  "currency": {
+                    "id": "/properties/overviewTab/properties/upcomingEpisode/properties/ovdDetails/items/properties/currency",
+                    "type": "string"
+                  },
+                  "hostImage": {
+                    "id": "/properties/overviewTab/properties/upcomingEpisode/properties/ovdDetails/items/properties/hostImage",
+                    "type": "string"
+                  },
+                  "hostName": {
+                    "id": "/properties/overviewTab/properties/upcomingEpisode/properties/ovdDetails/items/properties/hostName",
+                    "type": "string"
+                  },
+                  "license": {
+                    "id": "/properties/overviewTab/properties/upcomingEpisode/properties/ovdDetails/items/properties/license",
+                    "type": "string"
+                  },
+                  "price": {
+                    "id": "/properties/overviewTab/properties/upcomingEpisode/properties/ovdDetails/items/properties/price",
+                    "type": "string"
+                  },
+                  "tmsID": {
+                    "id": "/properties/overviewTab/properties/upcomingEpisode/properties/ovdDetails/items/properties/tmsID",
+                    "type": "string"
+                  },
+                  "url": {
+                    "id": "/properties/overviewTab/properties/upcomingEpisode/properties/ovdDetails/items/properties/url",
+                    "type": "string"
+                  },
+                  "videoQuality": {
+                    "id": "/properties/overviewTab/properties/upcomingEpisode/properties/ovdDetails/items/properties/videoQuality",
+                    "type": "string"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "programGenres": {
+              "id": "/properties/overviewTab/properties/upcomingEpisode/properties/programGenres",
+              "type": "string"
+            },
+            "releaseYear": {
+              "id": "/properties/overviewTab/properties/upcomingEpisode/properties/releaseYear",
+              "type": "string"
+            },
+            "seasonNumber": {
+              "id": "/properties/overviewTab/properties/upcomingEpisode/properties/seasonNumber",
+              "type": "string"
+            },
+            "synopsis": {
+              "id": "/properties/overviewTab/properties/upcomingEpisode/properties/synopsis",
+              "type": "string"
+            },
+            "tags": {
+              "id": "/properties/overviewTab/properties/upcomingEpisode/properties/tags",
+              "type": "string"
+            },
+            "timings": {
+              "id": "/properties/overviewTab/properties/upcomingEpisode/properties/timings",
+              "items": {
+                "id": "/properties/overviewTab/properties/upcomingEpisode/properties/timings/items",
+                "properties": {
+                  "channels": {
+                    "id": "/properties/overviewTab/properties/upcomingEpisode/properties/timings/items/properties/channels",
+                    "items": {
+                      "id": "/properties/overviewTab/properties/upcomingEpisode/properties/timings/items/properties/channels/items",
+                      "properties": {
+                        "callSign": {
+                          "id": "/properties/overviewTab/properties/upcomingEpisode/properties/timings/items/properties/channels/items/properties/callSign",
+                          "type": "string"
+                        },
+                        "channelAssetId": {
+                          "id": "/properties/overviewTab/properties/upcomingEpisode/properties/timings/items/properties/channels/items/properties/channelAssetId",
+                          "type": "string"
+                        },
+                        "lcn": {
+                          "id": "/properties/overviewTab/properties/upcomingEpisode/properties/timings/items/properties/channels/items/properties/lcn",
+                          "type": "string"
+                        },
+                        "prgSvcID": {
+                          "id": "/properties/overviewTab/properties/upcomingEpisode/properties/timings/items/properties/channels/items/properties/prgSvcID",
+                          "type": "string"
+                        },
+                        "time": {
+                          "id": "/properties/overviewTab/properties/upcomingEpisode/properties/timings/items/properties/channels/items/properties/time",
+                          "type": "string"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "time": {
+                    "id": "/properties/overviewTab/properties/upcomingEpisode/properties/timings/items/properties/time",
+                    "type": "string"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "tmsID": {
+              "id": "/properties/overviewTab/properties/upcomingEpisode/properties/tmsID",
+              "type": "string"
+            }
+          },
+          "type": "object"
+        }
+      },
+      "type": "object"
+    },
+    "releaseYear": {
+      "id": "/properties/releaseYear",
+      "type": "string"
+    },
+    "seriesDescription": {
+      "id": "/properties/seriesDescription",
+      "type": "string"
+    },
+    "seriesGenres": {
+      "id": "/properties/seriesGenres",
+      "type": "string"
+    },
+    "seriesImage": {
+      "id": "/properties/seriesImage",
+      "type": "string"
+    },
+    "seriesTitle": {
+      "id": "/properties/seriesTitle",
+      "type": "string"
+    },
+    "upcomingEpisodeTab": {
+      "id": "/properties/upcomingEpisodeTab",
+      "items": {
+        "id": "/properties/upcomingEpisodeTab/items",
+        "properties": {
+          "displayRating": {
+            "id": "/properties/upcomingEpisodeTab/items/properties/displayRating",
+            "type": "string"
+          },
+          "episodeNumber": {
+            "id": "/properties/upcomingEpisodeTab/items/properties/episodeNumber",
+            "type": "string"
+          },
+          "episodeTitle": {
+            "id": "/properties/upcomingEpisodeTab/items/properties/episodeTitle",
+            "type": "string"
+          },
+          "isFinale": {
+            "id": "/properties/upcomingEpisodeTab/items/properties/isFinale",
+            "type": "boolean"
+          },
+          "isLive": {
+            "id": "/properties/upcomingEpisodeTab/items/properties/isLive",
+            "type": "boolean"
+          },
+          "isNew": {
+            "id": "/properties/upcomingEpisodeTab/items/properties/isNew",
+            "type": "boolean"
+          },
+          "isPremier": {
+            "id": "/properties/upcomingEpisodeTab/items/properties/isPremier",
+            "type": "boolean"
+          },
+          "originalAirDate": {
+            "id": "/properties/upcomingEpisodeTab/items/properties/originalAirDate",
+            "type": "string"
+          },
+          "ovdDetails": {
+            "id": "/properties/upcomingEpisodeTab/items/properties/ovdDetails",
+            "items": {
+              "id": "/properties/upcomingEpisodeTab/items/properties/ovdDetails/items",
+              "properties": {
+                "currency": {
+                  "id": "/properties/upcomingEpisodeTab/items/properties/ovdDetails/items/properties/currency",
+                  "type": "string"
+                },
+                "hostImage": {
+                  "id": "/properties/upcomingEpisodeTab/items/properties/ovdDetails/items/properties/hostImage",
+                  "type": "string"
+                },
+                "hostName": {
+                  "id": "/properties/upcomingEpisodeTab/items/properties/ovdDetails/items/properties/hostName",
+                  "type": "string"
+                },
+                "license": {
+                  "id": "/properties/upcomingEpisodeTab/items/properties/ovdDetails/items/properties/license",
+                  "type": "string"
+                },
+                "price": {
+                  "id": "/properties/upcomingEpisodeTab/items/properties/ovdDetails/items/properties/price",
+                  "type": "string"
+                },
+                "tmsID": {
+                  "id": "/properties/upcomingEpisodeTab/items/properties/ovdDetails/items/properties/tmsID",
+                  "type": "string"
+                },
+                "url": {
+                  "id": "/properties/upcomingEpisodeTab/items/properties/ovdDetails/items/properties/url",
+                  "type": "string"
+                },
+                "videoQuality": {
+                  "id": "/properties/upcomingEpisodeTab/items/properties/ovdDetails/items/properties/videoQuality",
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "programGenres": {
+            "id": "/properties/upcomingEpisodeTab/items/properties/programGenres",
+            "type": "string"
+          },
+          "releaseYear": {
+            "id": "/properties/upcomingEpisodeTab/items/properties/releaseYear",
+            "type": "string"
+          },
+          "seasonNumber": {
+            "id": "/properties/upcomingEpisodeTab/items/properties/seasonNumber",
+            "type": "string"
+          },
+          "synopsis": {
+            "id": "/properties/upcomingEpisodeTab/items/properties/synopsis",
+            "type": "string"
+          },
+          "tags": {
+            "id": "/properties/upcomingEpisodeTab/items/properties/tags",
+            "type": "string"
+          },
+          "timings": {
+            "id": "/properties/upcomingEpisodeTab/items/properties/timings",
+            "items": {
+              "id": "/properties/upcomingEpisodeTab/items/properties/timings/items",
+              "properties": {
+                "channels": {
+                  "id": "/properties/upcomingEpisodeTab/items/properties/timings/items/properties/channels",
+                  "items": {
+                    "id": "/properties/upcomingEpisodeTab/items/properties/timings/items/properties/channels/items",
+                    "properties": {
+                      "callSign": {
+                        "id": "/properties/upcomingEpisodeTab/items/properties/timings/items/properties/channels/items/properties/callSign",
+                        "type": "string"
+                      },
+                      "channelAssetId": {
+                        "id": "/properties/upcomingEpisodeTab/items/properties/timings/items/properties/channels/items/properties/channelAssetId",
+                        "type": "string"
+                      },
+                      "lcn": {
+                        "id": "/properties/upcomingEpisodeTab/items/properties/timings/items/properties/channels/items/properties/lcn",
+                        "type": "string"
+                      },
+                      "prgSvcID": {
+                        "id": "/properties/upcomingEpisodeTab/items/properties/timings/items/properties/channels/items/properties/prgSvcID",
+                        "type": "string"
+                      },
+                      "time": {
+                        "id": "/properties/upcomingEpisodeTab/items/properties/timings/items/properties/channels/items/properties/time",
+                        "type": "string"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "time": {
+                  "id": "/properties/upcomingEpisodeTab/items/properties/timings/items/properties/time",
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "tmsID": {
+            "id": "/properties/upcomingEpisodeTab/items/properties/tmsID",
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "type": "array"
+    }
+  },
+  "type": "object"
+}

@@ -1,0 +1,76 @@
+
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "LoginDetails": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "UserID": {
+            "type": "string"
+          },
+          "NickName": {
+            "type": "string"
+          },
+          "CreatedDate": {
+            "type": "string"
+          },
+          "IsNewUser": {
+            "type": "string"
+          },
+          "isMusic": {
+            "type": "boolean"
+          },
+          "isPPV": {
+            "type": "boolean"
+          },
+          "isHD": {
+            "type": "boolean"
+          },
+          "properties": {
+            "type": "object",
+            "properties": {
+              "113": {
+                "type": "string"
+              },
+              "976": {
+                "type": "string"
+              },
+              "2002": {
+                "type": "string"
+              },
+              "2003": {
+                "type": "string"
+              },
+              "2004": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "113",
+              "976",
+              "2002",
+              "2003",
+              "2004"
+            ]
+          }
+        },
+        "required": [
+          "UserID",
+          "NickName",
+          "CreatedDate",
+          "IsNewUser",
+          "isMusic",
+          "isPPV",
+          "isHD",
+          "properties"
+        ]
+      }
+    }
+  },
+  "required": [
+    "LoginDetails"
+  ]
+}
